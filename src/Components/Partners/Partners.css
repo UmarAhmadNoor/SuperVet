@@ -1,0 +1,78 @@
+.mainpartners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  color: white;
+  background-image: url("../../../public/images/galaxybg.png");
+}
+.contpartn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 120px;
+}
+.partnerspics {
+  width: 130px;
+}
+.styleheadpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logopartn {
+  display: grid;
+  grid-template-columns: repeat(5, 4fr);
+  align-items: center;
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
+}
+.head {
+  font-size: 50px;
+  font-family: "Glaive";
+  position: relative;
+}
+.head {
+  position: relative;
+}
+.headimg {
+  position: absolute;
+  margin-top: 100px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logopartn {
+    display: grid;
+    grid-template-columns: repeat(5, 4fr);
+    align-items: center;
+    grid-column-gap: 70px;
+    grid-row-gap: 30px;
+  }
+  .contpartn {
+    gap: 70px;
+  }
+  .partnerspics {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logopartn {
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+  }
+  .partnerspics {
+    width: 30px;
+  }
+  .mainpartners {
+    height: 80vh;
+  }
+  .contpartn {
+    gap: 70px;
+  }
+  .head {
+    font-size: 40px;
+  }
+  .headimg {
+    width: 100px;
+  }
+}

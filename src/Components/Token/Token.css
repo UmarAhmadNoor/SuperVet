@@ -1,0 +1,22 @@
+.maintoken {
+  background-image: url("../../../public/images/Tokenbg.png");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  /* position: relative; */
+}
+.tokencontainer {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tokencontainer {
+    gap: 15px;
+  }
+}

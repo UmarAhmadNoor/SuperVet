@@ -1,0 +1,107 @@
+.galaxymain {
+  background-image: url("../../../public/images/galaxybg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.galaxycont {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.gal1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 40px;
+}
+
+.gal1img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+}
+
+.galheading {
+  color: #ffc810;
+  font-size: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.innergal1 {
+  display: flex;
+  border: solid 3.5px yellow;
+  border-radius: 14px;
+  height: 140px;
+  width: 140px;
+  padding: 160px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#innergal2 {
+  padding: 180px;
+  gap: 40px;
+}
+
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.innerofmain {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.imagesincontainers {
+  width: 130px;
+}
+#imagesincontainers2 {
+  width: 170px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .imagesincontainers {
+    width: 60px;
+  }
+  #imagesincontainers2 {
+    width: 80px;
+  }
+  .innergal1 {
+    padding: 85px;
+  }
+  #innergal2 {
+    padding: 100px;
+    gap: 30px;
+  }
+  .galheading {
+    font-size: 18px;
+  }
+  .galheadingpic {
+    width: 50%;
+  }
+  .galaxycont {
+    gap: 30px;
+  }
+  .galaxymain {
+    height: 80vh;
+  }
+}

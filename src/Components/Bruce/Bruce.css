@@ -1,0 +1,40 @@
+.brucemain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-image: url("../../../public/images/bruce.png");
+  object-fit: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .brimg {
+  width: 120%;
+  height: 100%;
+  background-position: center;
+  background-position: cover;
+} */
+.brucecont {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.topimg {
+  width: 100%;
+  height: 100vh;
+  /* margin-top: -100px; */
+}
+.brucebtns {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  align-items: center;
+  grid-gap: 1000px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .brucemain {
+  }
+}

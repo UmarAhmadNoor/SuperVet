@@ -1,0 +1,149 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.heading {
+  color: white;
+}
+#super {
+  font-weight: 700px;
+  color: white;
+  font-size: 111.55px;
+  z-index: 999;
+  font-family: "Rajdhani";
+}
+.contnews {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.newspics {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  object-position: center;
+  background-size: cover;
+}
+.newspics .imgcat {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contdiv1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.newspics img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.headingg1 {
+  color: yellow;
+
+  background-color: #8f8888;
+  /* height: 60px; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Rajdhani";
+  font-size: 43px;
+  opacity: 0;
+}
+
+.des1 {
+  align-items: center;
+  text-align: justify;
+  color: light;
+  font-family: "Rajdhani";
+  font-weight: bold;
+  font-size: 18.25px;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.dbtn1 {
+  color: white;
+  font-family: "Rajdhani";
+  font-weight: 600px;
+  font-size: 17px;
+  background-color: #ffc810;
+  width: 118px;
+  height: 39px;
+  border-radius: 10px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+.headingg1,
+.des1,
+.dbtn1 {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    height: 90vh;
+  }
+  .des1 {
+    font-size: 11.25px;
+  }
+  .main {
+    gap: 45px;
+  }
+  #super {
+    font-size: 50px;
+  }
+  .headingg1 {
+    font-size: 27px;
+  }
+  .contdiv1 {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .des1 {
+    font-size: 5px;
+  }
+  #super {
+    font-size: 25px;
+  }
+  .headingg1 {
+    font-size: 5px;
+  }
+
+  .contdiv1 {
+    gap: 6px;
+  }
+  .main {
+    gap: 35px;
+    height: 80vh;
+  }
+  .dbtn1 {
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+  }
+}

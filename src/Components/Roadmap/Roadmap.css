@@ -1,0 +1,67 @@
+.Roadmain {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 120vh;
+  background: url(../../../public/images/RoadMap\ .png);
+}
+.rdbg {
+  height: 100%;
+  width: 100%;
+}
+.hpmain1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 720px;
+  gap: 50px;
+  height: 100vh;
+}
+.logopartner {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+/* .logopartner .img {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100px;
+} */
+.rdcont {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hp1 {
+  font-family: Rajdhani;
+  font-weight: lighter;
+}
+.hp2 {
+  font-family: Rajdhani;
+  font-weight: lighter;
+}
+.rdcont2 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 260px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Roadmain {
+    height: 130vh;
+  }
+  .logopartner {
+    height: 150px;
+  }
+  .logopartner img {
+    height: 150px !important;
+  }
+}

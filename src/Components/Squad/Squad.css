@@ -1,0 +1,52 @@
+.sqmain {
+  background-image: url("../../../public/images/RoadMap\ .png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sqcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.sqbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sqbtnstyle {
+  width: 190px;
+  height: 65px;
+  padding: 12px;
+  font-size: 30px;
+  color: black;
+  background-color: #ffc810;
+  font-family: Glaive;
+}
+.hsq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 10px;
+  font-family: Rajdhani;
+  gap: 60px;
+  color: white;
+}
+.sqpics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sqcont {
+    gap: 40px;
+  }
+}
